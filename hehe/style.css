@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    background-color: RGB(71,37,133);
+}
+
+#mainBody{
+    width:80%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+
+#gear{
+    width: 41%;
+    position: absolute;
+    left: 24%;
+}
+
+#mainBackground{
+    width: 100%;
+}
+
+#shop{
+    position:absolute;
+    width: 500px;
+    height: 60%;
+    right: 10%;
+    bottom: 0;
+}
+
+#dialog1{
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    top: 10%;
+    left: 5%;
+    background-color: black;
+}
+
+#shop2020{
+    position:absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+#stoneCount{
+    position: absolute;
+    right: 12%;
+    top: 5%;
+    width: 450px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+#prizeList{
+    position: absolute;
+    width: 12%;
+    top: 2%;
+    left: 12%;
+    border: 5px solid black;
+}
+
+#prizeList:hover{
+    cursor: pointer;
+}
+
+.imgBtn2{
+    position: absolute;
+    width: 16%;
+    left: 12%;
+    bottom: 3%;
+}
+
+#gacha1{
+    width: 47%;
+    height: 50px;
+    background-color: red;
+    margin: 0 1%;
+}
+
+#gacha10{
+    width: 47%;
+    height: 50px;
+    background-color: red;
+    margin: 0 1%;
+}
+
+#innerBox{
+
+    border: 2px solid white;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.innerBox2{
+    width: 15%;
+    border: 2px solid white;
+    margin: 0 auto 2% auto;
+}
+
+.prizeImg{
+    width: 100%;
+    margin: 2% auto 5% auto;
+}
+
+.prizeImg:hover{
+    cursor: pointer;
+}
+
+
+#ui-id-1{
+    text-align: center;
+}
+
+a{
+    border: 0;
+}
+
+.prizeName{
+    color: white;
+    font-size: x-large;
+    margin: 0;
+    border-bottom: 2px solid white;
+}
+
+#hey{
+    width: 15%;
+    position: absolute;
+    top: 28%;
+    left:11%;
+}
+
+@media screen and (max-width: 1000px){
+    #mainBody{
+        width: 100%;
+    }
+
+    #mainBackground{
+        display: none;
+    }
+
+    #gear{
+        width: 100%;
+        position: static;
+    }
+
+    #prizeList{
+        position: static;
+        width: 100%;
+        border: 5px solid black;
+    }
+
+    .innerBox2{
+        width: 49%;
+        border: 2px solid white;
+        margin: 0 auto 2% auto;
+    }
+
+    #hey{
+        width:35%;
+        top: 0;
+        left: 0;
+    }
+
+}
