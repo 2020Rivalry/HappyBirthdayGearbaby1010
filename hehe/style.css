@@ -9,8 +9,6 @@ body{
     margin: 0 auto;
 }
 
-
-
 #gear{
     width: 41%;
     position: absolute;
@@ -63,27 +61,31 @@ body{
 }
 
 #prizeList:hover{
+    scale: 1.1;
+}
+
+#prizeList:hover{
     cursor: pointer;
 }
 
 .imgBtn2{
-    position: absolute;
-    width: 16%;
-    left: 12%;
-    bottom: 3%;
+    position: relative;
+    width: 30%;
+    top: -150px;
+    left: 80px;
 }
 
 #gacha1{
-    width: 47%;
-    height: 50px;
-    background-color: red;
+    width: 45%;
+    height: 80px;
+
     margin: 0 1%;
 }
 
 #gacha10{
-    width: 47%;
-    height: 50px;
-    background-color: red;
+    width: 45%;
+    height: 80px;
+
     margin: 0 1%;
 }
 
@@ -113,13 +115,16 @@ body{
     cursor: pointer;
 }
 
-
 #ui-id-1{
     text-align: center;
 }
 
-a{
-    border: 0;
+#ui-id-2{
+    text-align: center;
+}
+
+#ui-id-3{
+    text-align: center;
 }
 
 .prizeName{
@@ -134,6 +139,51 @@ a{
     position: absolute;
     top: 28%;
     left:11%;
+}
+
+.innerBox3{
+    width: 100%;
+    border: 2px solid white;
+    margin: 0 auto 2% auto;
+}
+
+#rstName{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    border-bottom: 2px solid white;
+}
+
+.rstImg2{
+    width: 100%;
+    margin: 2% auto 5% auto;
+}
+
+.rstImg3{
+    width: 100%;
+    margin: 2% auto 5% auto;
+}
+
+.innerBox4{
+    width: 19%;
+    border: 2px solid white;
+    margin: 0 auto 2% auto;
+}
+
+#gacha1:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#gacha10:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#videoBox{
+    z-index: 100;
+    position: absolute;
 }
 
 @media screen and (max-width: 1000px){
@@ -166,6 +216,10 @@ a{
         width:35%;
         top: 0;
         left: 0;
+    }
+
+    .imgBtn2{
+        display: none;
     }
 
 }
